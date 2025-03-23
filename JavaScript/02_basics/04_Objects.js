@@ -37,12 +37,38 @@ const obj3 = {...obj1, ...obj2, ...obj4}      // This is a good way to merge obj
 //  console.log(obj3);
 
 
-console.log(instauser);
+// console.log(instauser);
 
 // console.log(Object.keys(instauser));     // It will return an array of keys.
 // console.log(Object.values(instauser));   // It will return an array of values. 
 // console.log(Object.entries(instauser));  // It will return an array of arrays.
-console.log(instauser.hasOwnProperty('age'));  
+// console.log(instauser.hasOwnProperty('age'));
+
+
+
+const course = {
+    name: "Javascript",
+    duration: "3 months",
+    mentor: "Rajan",
+    price: 2000
+}
+
+// console.log(course.price);
+// const price = course.price
+// console.log(price);
+
+//// Object destructuring with property renaming
+//// const {mentor: w} = course
+//// This syntax means:
+//// 1. Take the 'mentor' property from the 'course' object
+// //2. Create a new variable 'w' and assign it the value of 'mentor'
+//// 3. Now 'w' contains "Rajan" (the value of course.mentor)
+//// This is useful when you want to extract a property with a different variable name
+
+const {mentor: w} = course
+// console.log(mentor);
+// console.log(w);
+
 
 
 
