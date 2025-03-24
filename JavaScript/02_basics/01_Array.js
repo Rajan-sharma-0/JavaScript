@@ -71,6 +71,8 @@ const arry4 = [10, 20, 30, 40]
 const avg = arry4.reduce((fir, num) => (fir + num) , 0)/ arry4.length
 
 // console.log(avg);
+// console.log(...arry4);
+
 
 
                 // Reverse an array without using the reverse() method.
