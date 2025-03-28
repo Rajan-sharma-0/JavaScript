@@ -29,8 +29,28 @@ let score = 100
 let score2 = 200
 let score3 = 300
 
-console.log(  Array.of(score, score2, score3))
+// console.log(  Array.of(score, score2, score3))
 
 
+
+
+const myObject = {  
+   per1: {
+        name: "Rajan",
+        age: 22
+    },
+   per2: {
+        name: "Rahul",
+        age: 23
+    },
+   per3: {
+        name: "Rohit",
+        age: 24
+    },
+}
+
+// console.log(myObject);
+const myarr = Object.entries(myObject)
+console.log(myarr);
 
 
