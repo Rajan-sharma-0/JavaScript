@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Two</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    
+    const value = function(str) {
+        console.log(str);
+    };
+
+    
+    let intervalId = 0; // Global variable to store interval ID
+
+    document.querySelector('#start').addEventListener('click', function() {
+        
+            console.log('Start is clicked');
+            const count = function() {value('hi')}
+            intervalId = setInterval(count , 2000);
+        
+    });
+
+    document.querySelector('#stop').addEventListener('click', function() {
+        
+            clearInterval(intervalId);
+            intervalId = 0; // Reset interval ID
+            console.log("Stop is clicked");
+            
+        });
+        
+</script>
+</html> 
