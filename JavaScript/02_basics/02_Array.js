@@ -50,7 +50,22 @@ const myObject = {
 }
 
 // console.log(myObject);
+// console.log(Object.values(myObject).map((e)=> e.name));  // It will return an array of names.
+// console.log(Object.keys(myObject))
 const myarr = Object.entries(myObject)
-console.log(myarr);
+// console.log(myarr);
+
+
+
+let arr = [1,2,3,4,5,6]
+let arr2 = [7,8,9,10]
+
+// How to add two array 
+// console.log(arr.concat(arr2))   // 1st method 
+// console.log(...arr,...arr2)        // 2nd method
+
+console.log(arryreduce(arr))
+
+
 
 

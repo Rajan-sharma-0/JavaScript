@@ -31,3 +31,6 @@ const mysym = Symbol('key1')
 // syntex = "object.freeze(object_name)"   // freeze = After this no changes will perform
 Object.freeze(jsuser)
 jsuser.email = "Nishant@micro.com"
+
+
+

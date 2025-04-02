@@ -42,7 +42,7 @@ const myn2 = myArr2.splice(1, 3)
 ////////////////////////////////QUESTIONS SECTION ///////////////////////////////////////////////////////////
 
 const arry1 = [10, 25, 5, 8, 30]
-// const max = Math.max(...arry)
+// const max = Math.max(...arry1)
 
 // console.log(max);
 
