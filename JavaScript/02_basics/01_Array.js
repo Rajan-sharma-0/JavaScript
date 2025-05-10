@@ -13,10 +13,10 @@ myArr.shift();
 let myArr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const myn1 = myArr2.slice(1, 3)
-// console.log(myn1);
+console.log(myn1);
 
 const myn2 = myArr2.splice(1, 3)
-// console.log(myn2);
+console.log(myn2);
 
 
 
@@ -31,7 +31,7 @@ const myn2 = myArr2.splice(1, 3)
 // 6. IndexOf = checks the position of value in number form.
 // 7.Join = converts to string.
 // => Array in a non-primitive data types. 
-// => It is used to store nultiple items under a single varible. 
+// => It is used to store multiple items under a single varible. 
 // =>  slice() does not manupulate main array.
 // => splice() manupulate original array.
 
@@ -79,4 +79,4 @@ const avg = arry4.reduce((fir, num) => (fir + num) , 0)/ arry4.length
                 // Example: [1, 2, 3, 4] → Output: [4, 3, 2, 1]
 
 
-
+      

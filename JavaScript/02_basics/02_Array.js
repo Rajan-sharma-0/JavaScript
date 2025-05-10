@@ -69,3 +69,4 @@ console.log(arryreduce(arr))
 
 
 
+

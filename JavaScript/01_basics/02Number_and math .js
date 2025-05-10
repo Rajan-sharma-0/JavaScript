@@ -1,15 +1,15 @@
 const score = 40
 // console.log(score);
 
-const number = new Number(40)
+const number = new Number(40.74414)
 // console.log(number);
 
 // console.log(number.toString().length);
-// console.log(number.toFixed(1));  // It will print the number with 2 decimal points
+// console.log(number.toFixed(1));  // It will print the number with 1 decimal points like 34.345345 = 34.3
 
 const num = 50.434343
 
-// console.log(num.toPrecision(2)); // toPrecision() method returns a string, with a number written with a specified length
+// console.log(num.toPrecision(4)); // toPrecision() method returns a string, with a number written with a specified length
 
 const hundred = 1000000000
 // console.log(hundred.toLocaleString('en-IN'));  // toLocaleString() method returns a string with a language-sensitive representation of this number.
@@ -39,9 +39,9 @@ const hundred = 1000000000
 // console.log(Math.max(2, 3, 4, 5, 6, 7));
 
 
-console.log(Math.random());                         
-console.log(Math.random() * 10);
-console.log(Math.floor(Math.random() * 10) + 1);     
+// console.log(Math.random());                         
+// console.log(Math.random() * 10);
+// console.log(Math.floor(Math.random() * 10) + 1);     
 
 
 const min = 1
