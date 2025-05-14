@@ -17,4 +17,4 @@ function studentData(name, age, roleNo, address){
 }
 
 const student = new studentData('rajan', 22, 1234, 'm-block')
-console.log(student);
+console.log(student);    

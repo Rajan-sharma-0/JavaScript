@@ -67,6 +67,7 @@ let arr2 = [7,8,9,10]
 console.log(arryreduce(arr))
 
 
+  
 
 
-
+ffdf
