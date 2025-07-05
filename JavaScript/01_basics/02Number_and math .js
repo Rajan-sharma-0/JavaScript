@@ -9,7 +9,7 @@ const number = new Number(40.74414)
 
 const num = 50.434343
 
-// console.log(num.toPrecision(4)); // toPrecision() method returns a string, with a number written with a specified length
+// console.log(num.toPrecision(4)); // toPrecision() method returns a string, with a number written with a specified length  50.434343 = 50.43 
 
 const hundred = 1000000000
 // console.log(hundred.toLocaleString('en-IN'));  // toLocaleString() method returns a string with a language-sensitive representation of this number.
@@ -32,7 +32,10 @@ const hundred = 1000000000
 
 
 // console.log(Math.sqrt(36));
-// console.log(Math.pow(2, 3));
+
+let num2 =3
+console.log(Math.pow(num2, 3));
+console.log(Math.pow(2, 3));
 
 
 // console.log(Math.min(2, 3, 4, 5, 6, 7));

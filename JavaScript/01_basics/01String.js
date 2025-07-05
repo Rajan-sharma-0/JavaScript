@@ -16,13 +16,39 @@ const gamenaem = new String("   ClashofClans     ")  // This is antoher way to c
 // console.log(gamenaem[4]);
 
 
-const anothergamenaem = "ClashofClans"
+const anothergamenaem = "1234567890"
 // console.log(anothergamenaem.slice(0, 5));  // It will print the string from 0 to 4 eXCLUDING 5
-console.log(anothergamenaem.slice(-5));  // It will print the string from last 5 characters
+// console.log(anothergamenaem.slice(-5));  // It will print the string from last 5 characters
 
 const game = "    ClashofClans    "
 // console.log(game);
 // console.log(game.trim());  // It will remove the extra spaces from the string and end and start
+
+let string = "hello"
+//  const reverse = string.split("").reverse().join("")
+
+//  console.log(reverse);
+
+let arr = [1, 2, 3, 4, 5]
+const sum =  arr.reduce((acc, sum)=>{       // Using reduce method
+     const a =acc+sum
+     return a       
+},0)
+// console.log(sum);
+
+let cont = 0
+for(let i=0; i<arr.length; i++){
+     cont = cont + arr[i]
+}
+// console.log(cont);
+
+arr.forEach((val)=>{
+     // console.log(val);
+     
+})
+
+const reverse = arr.reverse()
+// console.log(reverse);
 
 
 
