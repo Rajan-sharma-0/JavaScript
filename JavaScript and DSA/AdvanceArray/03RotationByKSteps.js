@@ -24,4 +24,16 @@ for(let i = arr.length-1; i>0; i--){
 arr[0]= copyy
 
 }
-console.log(arr)
+// console.log(arr)
+
+
+// Left Rotation by K with optimized way
+
+
+let temp = new Array(arr.length)
+
+for(let i= 1; i<= arr.length-1; i++){
+    arr[i] = arr[(i+k)%arr.length]
+}
+console.log(temp);
+
