@@ -37,7 +37,7 @@ else console.log(`This is not a palendrom`);
 
 */
 // Optimized version
-/*   
+   
 let s = "madam"
 let isPalendrom = true;
 let i = 0, j = s.length -1
@@ -54,5 +54,5 @@ while (i < j) {
 if(isPalendrom) console.log("palendrom");
 else console.log("not palendrom");
 
-*/
+
 

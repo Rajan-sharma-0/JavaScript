@@ -15,25 +15,24 @@ let k = 2
 
 // Right rotation by k Steps
 
-for(let j = 1; j <= k ; j++){
+// for(let j = 1; j <= k ; j++){
 
-let copyy = arr[arr.length-1]
-for(let i = arr.length-1; i>0; i--){
-    arr[i] = arr[i-1]
-}
-arr[0]= copyy
-
-}
+// let copyy = arr[arr.length-1]
+// for(let i = arr.length-1; i>0; i--){
+//     arr[i] = arr[i-1]
+// }
+// arr[0]= copyy
+// }
 // console.log(arr)
 
 
-// Left Rotation by K with optimized way
+// Left Rotation by K with Extra Space
 
 
 let temp = new Array(arr.length)
 
-for(let i= 1; i<= arr.length-1; i++){
-    arr[i] = arr[(i+k)%arr.length]
+for(let i= 0; i< arr.length; i++){
+    temp[i] = arr[(i+k)%arr.length]
 }
 console.log(temp);
 
