@@ -26,7 +26,7 @@ console.log(rev);
 // ==> Check If given string is plandrom
 
 
-/*
+
 let s = "madam"
 let rev = ''
 for (let i = s.length - 1; i >= 0; i--) {
@@ -35,9 +35,9 @@ for (let i = s.length - 1; i >= 0; i--) {
 if(rev == s) console.log(`${s} is palendrom`);
 else console.log(`This is not a palendrom`);
 
-*/
+
 // Optimized version
-   
+/*   
 let s = "madam"
 let isPalendrom = true;
 let i = 0, j = s.length -1
@@ -54,5 +54,5 @@ while (i < j) {
 if(isPalendrom) console.log("palendrom");
 else console.log("not palendrom");
 
-
+*/
 
